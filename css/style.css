@@ -3,7 +3,6 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: antiquewhite;
@@ -14,10 +13,11 @@ article, nav, p, ul, aside {
 }
 p {
     padding: 20px;
+    max-width: 1000px;
     text-align: justify;
 }
 h2::first-letter {
-    font-size: 1.5em;
+    font-size: 1.3em;
     color: #004b7a;
     font-weight: bold;
 }
@@ -32,7 +32,7 @@ h1 {
   font-size: 48px;
   line-height: 1;
   font-weight: bold;
-  background: linear-gradient(to top left,#eeff00,#eaff83,#5cffec,#a8fbff,#ffffff,#ffffff);
+  background: linear-gradient(to top right,#eeff00,#eaff83,#5cffec,#a8fbff,#3c88cb,#ffffff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -65,13 +65,14 @@ nav ul li a {
 .emphasis {
     color: #898989;
     font-style: italic;
-   padding: auto;
+   margin: auto;
+   text-align: center;
 }
 .start {
     font-style: italic;
     text-align: center;
     margin: 10px auto;
-    font-size: 1 em;
+    font-size: 1em;
 }
 
 aside.homeimages {
@@ -100,7 +101,6 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
-    position: fixed;
 }
 .link {
     font-style: none;
@@ -110,9 +110,6 @@ aside {
     word-spacing: 5px;
     text-align: right;
     padding: 10px;
-}
-all {
-    text-indent: 3%;
 }
 
 form{
@@ -172,18 +169,38 @@ section {
         text-align: center;
     }
 }
+
+form {
+    max-width: 500px;
+}
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+legend {
+    font-weight: bold;
+    padding: 0;
+    margin-bottom: 5px;
+}
+label {
+    display: block;
+    margin-top: 10px;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
     margin: 10px 0;
 }
-
 table, th, td {
+    width: 33%;
+    max-width: 400px;
     border: 2px solid #ccc;
+    margin: 10px;
     padding: 8px;
     text-align: left;
 }
-
 tr:nth-child(even) {
     background-color: #ffffff;
 }
