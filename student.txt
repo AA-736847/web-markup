@@ -1,0 +1,5 @@
+Student name: Andreea Andries
+Student number: 736847
+Student class: IT1E
+GitHub Repository: https://github.com/AA-736847/web-markup
+GitHub Pages URL: https://aa-736847.github.io/web-markup/index.html
