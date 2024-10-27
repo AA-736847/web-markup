@@ -74,7 +74,10 @@ nav ul li a {
     margin: 10px auto;
     font-size: 1em;
 }
-
+.comment {
+    font-style: italic;
+    font-size: 0.9em;
+}
 aside.homeimages {
     position: absolute;
     right: 0;
@@ -136,7 +139,7 @@ button {
     display: inline-block;
 }
 figure {
-    max-width: 300px;
+    max-width: 600px;
     margin: 0 auto;
 }
 
