@@ -11,6 +11,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: antiquewhite;
+    
 }
 article, nav, p, ul, aside {
     flex: 1;
@@ -113,6 +114,7 @@ footer {
 .link {
     font-style: none;
     color: black;
+    text-indent: 30%;
 }
 aside {
     word-spacing: 5px;
@@ -214,4 +216,12 @@ tr:nth-child(even) {
 }
 tr:nth-child(odd) {
     background-color: #abbfc6;
+}
+
+/*Style for uppercase for one word inside a sentence*/
+.uppercase {
+    text-transform: uppercase;
+}
+.submitbutton:hover {
+    background-color: #93fffa;
 }
